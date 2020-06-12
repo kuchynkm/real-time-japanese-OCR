@@ -91,4 +91,4 @@ There are four trackbars enabling for manual adjustments of the following:
 
 
 ## Links:
-* The used model github repository: [https://github.com/kuchynkm/hiragana-recognition-cnn](https://github.com/kuchynkm/hiragana-recognition-cnn)
+* The hiragana recognition model: [https://github.com/kuchynkm/hiragana-recognition-cnn](https://github.com/kuchynkm/hiragana-recognition-cnn)

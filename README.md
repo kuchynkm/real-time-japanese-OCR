@@ -1,4 +1,4 @@
-# Real-time Optical Hiragana Character Recognition
+# Real-time Optical Japanese Character Recognition
 
 Real-time Japanese hiragana character recognition with CNN using Python & OpenCV.
 

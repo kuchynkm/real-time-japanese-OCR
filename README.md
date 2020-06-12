@@ -66,7 +66,7 @@ Examples for each type of video input:
 ```
 * web camera at port camera_port: `python recognition.py -webcam camera_port`  
 ```
-    	python recognition.py -webcam 1
+    	python recognition.py -webcam 0
 ```
 * IP camera at ip_camera_url: `python recognition.py -ipcam ip_camera_url` 
 ```

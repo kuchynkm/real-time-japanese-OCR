@@ -4,8 +4,6 @@ Real-time Japanese hiragana character recognition with CNN using Python & OpenCV
 
 <img src="figures/preview.gif" >
 
-<!-- %|<img src="figures/recog2.png"> | <img src="figures/recog3.png"> 
-|-------------|-------------| -->
 
 
 
@@ -41,11 +39,7 @@ I'm including a few screenshots taken when I was testing the script on one of my
 <img src="figures/1.png" caption >
 
 
-### A little video preview
-
-
 ## How to use
-
 
 ### Dependencies
 The following packages and libraries are needed:

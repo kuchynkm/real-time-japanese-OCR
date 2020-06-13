@@ -83,11 +83,14 @@ The script can be halted by pressing Esc.
 
 ### Adjustments
 
-There are four trackbars enabling for manual adjustments of the following:
+There are four trackbars enabling for manual adjustments of a few parameters. 
 * **the recognition region size:** the gray frame in the center of the image, specifies the region on which the model inference takes place
 * **the preprocessing threshold:** from 0 to 255, specifies threshold for conversion of the model input to black & white  
 * **the cropping threshold:** from 0 to 255, specifies threshold for contour detection used for cropping the character 
 * **invert option:** 0 or 1, enables for detection of light characters on a dark background (when 0) and dark characters on a light background (when 1).
+
+In most situations, default settings are working quite well. Occasionaly, you may need to change the size of the recognition frame based on the character size or 
+the invert option based on the colors of the character and its background.
 
 
 ## Links:

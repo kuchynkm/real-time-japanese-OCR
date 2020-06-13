@@ -83,7 +83,7 @@ The script can be halted by pressing Esc.
 
 ### Adjustments
 
-There are four trackbars enabling for manual adjustments of a few parameters. 
+There are four trackbars enabling for further manual adjustments:
 * **the recognition region size:** the gray frame in the center of the image, specifies the region on which the model inference takes place
 * **the preprocessing threshold:** from 0 to 255, specifies threshold for conversion of the model input to black & white  
 * **the cropping threshold:** from 0 to 255, specifies threshold for contour detection used for cropping the character 

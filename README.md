@@ -54,23 +54,23 @@ The following packages and libraries are needed:
 To run the script, type the following line in the commandline: 
 
 ```
-python recognition.py -input source
+python recognition.py --input INPUT --source SOURCE
 ```
 
- where `input` is the type of your video input (webcam/IP camera) and `source` is the source specification (camera port/ip camera url). 
+ where `INPUT` is the type of your video input (webcam/IP camera) and `SOURCE` is the source specification (camera port/ip camera url). 
 
 Examples for each type of video input:
 * web camera at port 0 (default): `python recognition.py`  
 ```
     	python recognition.py
 ```
-* web camera at port camera_port: `python recognition.py -webcam camera_port`  
+* web camera at port camera_port: `python recognition.py -- input webcam --source camera_port`  
 ```
-    	python recognition.py -webcam 0
+    	python recognition.py --input webcam --source 0
 ```
-* IP camera at ip_camera_url: `python recognition.py -ipcam ip_camera_url` 
+* IP camera at ip_camera_url: `python recognition.py --input ipcam --source ip_camera_url` 
 ```
-    	python recognition.py -ipcam http://10.0.0.15:8080/video
+    	python recognition.py --input ipcam --source http://10.0.0.15:8080/video
 ```
 
 After running the script, a window with camera input will open. 
